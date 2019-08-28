@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Blog Title
-subtitle: Blog Subtitle
-description: Blog Description
-keywords: Blog Keywords
-author: Jerry Shan
+title: Tianyun Shan
+subtitle: Senior Mobile Developer
+description: Develop app with love.
+keywords: Tianyun, Jerry, Shan, Mobile, App, iOS, Android, Developer
+author: Tianyun Shan
 language: en
 timezone:
 
@@ -73,7 +73,14 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: apollo
+# 在归档页面显示所有文章
+# 需要上面安装的 hexo-generator-archive 插件支持
+archive_generator:
+    per_page: 0
+    yearly: false
+    monthly: false
+    daily: false
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
