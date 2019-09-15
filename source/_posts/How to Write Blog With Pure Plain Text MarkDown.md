@@ -1,6 +1,6 @@
 ---
 title: How to Write Blog With Pure Plain Text MarkDown
-date: 2017-01-26 20:34:04
+date: 2018-01-26 20:34:04
 tags:
 ---
 
