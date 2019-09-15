@@ -1,19 +1,22 @@
-# Todo Tags In Xcode
-#dev/apple/xcode
+---
+title: Todo Tags In Xcode
+date: 2019-03-03
+tags:
+desc:
+---
 
-
-# Todos
 In `Swift`, you can generate todo comments, like below:
+<!--more-->
 
 ```swift
 // TODO: a future todo
 // FIXME: a future fix
 ```
 
-After that, you will be able to see them in the class structure list. However that is not very obvious and will be easily ignored. 
+After that, you will be able to see them in the class structure list. However that is not very obvious and will be easily ignored.
 
 # Highlight Todos
-Here is a script we can put in the `Run Script` section. 
+Here is a script we can put in the `Run Script` section.
 
 ```bash
 TAGS="TODO:|FIXME:"
