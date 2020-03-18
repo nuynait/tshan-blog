@@ -103,11 +103,11 @@ To use the style you created, you can create the view (Here we use `UILabel` as 
 
 - Change the `UILabel` to `StyleableUILabel` in the identity inspector
 
-    ![Stylish%20Framework/CleanShot_2020-02-08_at_11.10.182x.png](Stylish%20Framework/CleanShot_2020-02-08_at_11.10.182x.png)
+    ![](CleanShot_2020-02-08_at_11.10.182x.png)
 
 - Enter the styles name `HeaderText` in the attributes inspector.
 
-    ![Stylish%20Framework/CleanShot_2020-02-08_at_11.27.012x.png](Stylish%20Framework/CleanShot_2020-02-08_at_11.27.012x.png)
+    ![](CleanShot_2020-02-08_at_11.27.012x.png)
 
 - Now you should see the label changed to the style `HeaderText`
 - If you see a red box around the view, then you will need to refresh the view to make it work. Select `.xib` or `.storyboard` file in the project inspector, then Editor → Refresh all Views. **Make sure it needs to select on the file in project inspector.** After you select refresh all views, you will see a progress bar building the project in Xcode. (If you didn't see the progress bar, then you didn't select the file. Click on the file and try it again!)
