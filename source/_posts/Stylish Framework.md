@@ -21,11 +21,11 @@ To install Stylish:
 
 - Open your project (`.xcworkspace`)  in Xcode, Select Files > Add Files To "...", then choose the `Stylish/Stylish.xcodeproj` adds into the project root tree.
 
-    ![Stylish%20Framework/CleanShot_2020-02-08_at_10.23.002x.png](Stylish%20Framework/CleanShot_2020-02-08_at_10.23.002x.png)
+    ![](CleanShot_2020-02-08_at_10.23.002x.png)
 
 - Select your project, general tab, in the framework area adds the Stylish framework thats come with the `Stylish.xcodeproj`.
 
-    ![Stylish%20Framework/CleanShot_2020-02-08_at_10.28.352x.png](Stylish%20Framework/CleanShot_2020-02-08_at_10.28.352x.png)
+    ![](CleanShot_2020-02-08_at_10.28.352x.png)
 
 - In your project, you need to extend and override `prepareForInterfaceBuilder` in `UIView` and `StyleableUIView` if you want to have live style rendering in Interface Builder storyboards. Put following code in your project. You can create a `StylishExtension.swift` file if needed.
 
@@ -112,7 +112,7 @@ To use the style you created, you can create the view (Here we use `UILabel` as 
 - Now you should see the label changed to the style `HeaderText`
 - If you see a red box around the view, then you will need to refresh the view to make it work. Select `.xib` or `.storyboard` file in the project inspector, then Editor → Refresh all Views. **Make sure it needs to select on the file in project inspector.** After you select refresh all views, you will see a progress bar building the project in Xcode. (If you didn't see the progress bar, then you didn't select the file. Click on the file and try it again!)
 
-    ![Stylish%20Framework/CleanShot_2020-02-08_at_11.32.492x.png](Stylish%20Framework/CleanShot_2020-02-08_at_11.32.492x.png)
+    ![](CleanShot_2020-02-08_at_11.32.492x.png)
 
 - If you still see a red box, then check the style name. If you see an error message and a blank view, then you have some error in the stylesheet or the styleable view you used. It doesn't give very nice error message. Try to debug by removing the code to see which code is having the issue.
 
@@ -122,7 +122,7 @@ The framework comes with `StyleableUIView`, `StyleableUILabel`, `StyleableUIText
 
 - For example, I created a `RateView` which adapt to `Styleable` protocol. The benefit is that you can see the realtime effect in `.xib` or `storyboard` where you use it. Otherwise, you will only see a white space when you use a normal view inside any `.xib` or `storyboard`.
 
-    ![Stylish%20Framework/StyleableRateView-Test.gif](Stylish%20Framework/StyleableRateView-Test.gif)
+    ![](StyleableRateView-Test.gif)
 
 ## How to Create a Custom Styleable View
 
